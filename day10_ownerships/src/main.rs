@@ -1,10 +1,11 @@
-fn read(y:bool)
+fn greet(g1: &String, g2: &String)
 {
-    if y{
-        println!("y is true");
-    }
+    println!("{} {}", g1, g2);
 }
 fn main() {
-    let x = true;
-    read(x);
+    let m1 = String::from("hello");
+    let m2 = String::from("world");
+    greet(&m1, &m2);
+    let s = format!("{} {}", m1, m2);
+    println!("{}", s);
 }
