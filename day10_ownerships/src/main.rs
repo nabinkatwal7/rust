@@ -9,3 +9,5 @@ fn main() {
     let s = format!("{} {}", m1, m2);
     println!("{}", s);
 }
+
+//learned error handling on day 12
