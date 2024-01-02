@@ -3,6 +3,9 @@ mod passing_values_around_functions;
 mod passing_references;
 mod mutability;
 mod dangling_references;
+mod fixing_reference_to_the_stack;
+mod fixing_not_enough_permissions;
+mod aliasing_and_mutating_a_data_structure;
 
 fn main() {
     let string = "Hello, Foo!";
