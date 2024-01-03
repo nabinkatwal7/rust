@@ -1,4 +1,5 @@
 mod example_struct;
+mod method_syntax;
 
 struct User{
     active:bool,
