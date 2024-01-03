@@ -1,3 +1,5 @@
+mod example_struct;
+
 struct User{
     active:bool,
     username:String,
