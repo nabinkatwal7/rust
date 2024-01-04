@@ -5,13 +5,13 @@ files:
     visible: true
     placeholders:
       - offset: 16
-        length: 34
+        length: 26
         placeholder_text: // put your code here to launch it
         initial_state:
           length: 34
           offset: 16
         initialized_from_dependency: false
-        selected: false
+        selected: true
         status: Unchecked
         encrypted_possible_answer: Ru/F09ZLSjpRk8JyOzlg3zy/K9iooZ3oix6M1X32A/s=
     encrypted_text: sl3O59VlDkdl7u9JaiP8DD+0EgQzJURpAtp3AV+Um89rcWd5gdKO7LlRr24qR/gwiWi9yZxjRxgJiNUw/0J0Mg==
