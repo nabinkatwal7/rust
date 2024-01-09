@@ -1,11 +1,11 @@
-use front_of_house::hosting;
+use front_of_house::hosting::add_to_waitlist;
 mod front_of_house;
 pub fn add(left: usize, right: usize) -> usize {
     left + right
 }
 
 pub fn eat_at_restaurant(){
-    hosting::add_to_waitlist();
+    add_to_waitlist();
 }
 
 #[cfg(test)]
