@@ -11,7 +11,7 @@ fn main() {
     // v.push(7);
 
     let row = vec![SpreadsheetCell::Int(3),SpreadsheetCell::Text(String::from("blue")),SpreadsheetCell::Float(10.12)];
-    
+
 
     let v = vec![1,2,3,4,5];
     let third: &i32 = &v[2];

@@ -27,7 +27,7 @@ fn value_in_cents(coin: Coin) -> u8 {
     }
 }
 
-fn main() {
+ fn main() {
     let penny = Coin::Penny;
     let nickel = Coin::Nickel;
     let dime = Coin::Dime;
