@@ -101,6 +101,12 @@ mod tests {
         Guess::new(200);
     }
 
+    #[test]
+    #[ignore]
+    fn expensive_test(){
+        //test that takes an hour to run
+    }
+
     // #[test]
     // fn another(){
     //     panic!("Make this test fail");
